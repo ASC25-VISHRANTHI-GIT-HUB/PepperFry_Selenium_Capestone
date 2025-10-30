@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-30T20:00:38 IST" name="Pepperfry Suite" finished-at="2025-10-30T20:03:14 IST" duration-ms="155402">
+    <groups>
+    </groups>
+    <test started-at="2025-10-30T20:00:38 IST" name="Pepperfry Automation Tests" finished-at="2025-10-30T20:03:14 IST" duration-ms="155402">
+      <class name="com.pepperfry.tests.CartPepperfry">
+        <test-method signature="verifyAddToCartFunctionality()[pri:0, instance:com.pepperfry.tests.CartPepperfry@759d26fb]" started-at="2025-10-30T20:02:43 IST" name="verifyAddToCartFunctionality" finished-at="2025-10-30T20:03:14 IST" duration-ms="30851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartFunctionality -->
+      </class> <!-- com.pepperfry.tests.CartPepperfry -->
+      <class name="com.pepperfry.tests.Loginpepperfry">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.pepperfry.tests.Loginpepperfry@ea6147e]" started-at="2025-10-30T20:00:38 IST" name="setupReport" finished-at="2025-10-30T20:00:38 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:com.pepperfry.tests.Loginpepperfry@ea6147e]" started-at="2025-10-30T20:00:38 IST" name="setupDriver" finished-at="2025-10-30T20:00:40 IST" duration-ms="1800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:com.pepperfry.tests.Loginpepperfry@ea6147e]" started-at="2025-10-30T20:00:41 IST" name="verifylogin" data-provider="logindata" finished-at="2025-10-30T20:02:03 IST" duration-ms="82319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avishranthi2304@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="afterAllTests()[pri:0, instance:com.pepperfry.tests.Loginpepperfry@ea6147e]" started-at="2025-10-30T20:03:14 IST" name="afterAllTests" finished-at="2025-10-30T20:03:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTests -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.pepperfry.tests.Loginpepperfry@ea6147e]" started-at="2025-10-30T20:03:14 IST" name="tearDownSuite" finished-at="2025-10-30T20:03:20 IST" duration-ms="6575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.pepperfry.tests.Loginpepperfry -->
+      <class name="com.pepperfry.tests.SearchPepperfry">
+        <test-method signature="verifySearchAndFilter()[pri:0, instance:com.pepperfry.tests.SearchPepperfry@14555e0a]" started-at="2025-10-30T20:02:03 IST" name="verifySearchAndFilter" finished-at="2025-10-30T20:02:36 IST" duration-ms="33305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchAndFilter -->
+      </class> <!-- com.pepperfry.tests.SearchPepperfry -->
+      <class name="com.pepperfry.tests.WishlistPepperfry">
+        <test-method signature="verifyAddToWishlistAndCheck()[pri:0, instance:com.pepperfry.tests.WishlistPepperfry@4bb33f74]" started-at="2025-10-30T20:02:36 IST" name="verifyAddToWishlistAndCheck" finished-at="2025-10-30T20:02:43 IST" duration-ms="6227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToWishlistAndCheck -->
+      </class> <!-- com.pepperfry.tests.WishlistPepperfry -->
+    </test> <!-- Pepperfry Automation Tests -->
+  </suite> <!-- Pepperfry Suite -->
+</testng-results>

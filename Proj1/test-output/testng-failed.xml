@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Pepperfry Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Pepperfry Automation Tests(failed)">
+    <classes>
+      <class name="com.pepperfry.tests.CartPepperfry">
+        <methods>
+          <include name="verifyAddToCartFunctionality"/>
+          <include name="tearDownSuite"/>
+          <include name="afterAllTests"/>
+          <include name="setupReport"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.pepperfry.tests.CartPepperfry -->
+      <class name="com.pepperfry.tests.WishlistPepperfry">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="afterAllTests"/>
+          <include name="setupReport"/>
+          <include name="verifyAddToWishlistAndCheck"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.pepperfry.tests.WishlistPepperfry -->
+      <class name="com.pepperfry.tests.Loginpepperfry">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="verifylogin"/>
+          <include name="afterAllTests"/>
+          <include name="setupReport"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.pepperfry.tests.Loginpepperfry -->
+      <class name="com.pepperfry.tests.SearchPepperfry">
+        <methods>
+          <include name="verifySearchAndFilter"/>
+          <include name="tearDownSuite"/>
+          <include name="afterAllTests"/>
+          <include name="setupReport"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.pepperfry.tests.SearchPepperfry -->
+    </classes>
+  </test> <!-- Pepperfry Automation Tests(failed) -->
+</suite> <!-- Failed suite [Pepperfry Suite] -->
