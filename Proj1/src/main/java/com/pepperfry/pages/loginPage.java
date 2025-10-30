@@ -23,7 +23,6 @@ public class loginPage {
     By continueButton = By.xpath("html/body/pf-modal/div/div/div/pf-authentication/div/section/pf-signup-login/section[2]/div/section/form/pf-button/button");
 
     By profileIcon = By.xpath("html/body/app-root/pf-header/header/div[2]/pf-header-main/div/div/div/div[4]/pf-header-icons/div/div/div/div");
-    //By SignUp=By.xpath("html/body/app-root/pf-header/header/div[2]/pf-header-main/div/div/div/div[4]/pf-header-icons/div/div/div/div/div");
  
     public loginPage(WebDriver driver) {
 
@@ -106,10 +105,9 @@ public class loginPage {
     	        return false;
     	    }
 
-
-
     }
 
 }
+
 
  
