@@ -1,1 +1,1 @@
-# PepperFry_Selenium_Capestone
+# PepperFry_Selenium_Capstone
